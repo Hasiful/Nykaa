@@ -11,13 +11,12 @@ body{
     background-color: #F3F3F3;
 }
 
-.container{
-    max-width: 1140px;
+.container {
+    max-width: 1192px;
     width: 100%;
     margin: 0px auto;
     padding: 0px 15px;
 }
-
 .toggler_mobile {
     display: block;
     z-index: 999;

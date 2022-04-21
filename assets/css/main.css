@@ -267,6 +267,7 @@
 
 .header_bottom_nav > ul > li > a:hover{
     border-bottom: 3px solid #fc2779;
+    color: #fc2779;
 }
 
 
@@ -520,14 +521,29 @@
     opacity: 0;
 }
 
+.header_nav ul li:hover .header_bottom_submenu {
+    visibility: visible;
+    opacity: 1;
+    top: 62px;
+}
+
 .header_bottom_nav ul li:hover .header_bottom_submenu{
     visibility: visible;
     opacity: 1;
 }
 
+.header_nav ul li:hover .header_bottom_submenu{
+    visibility: visible;
+    opacity: 1; 
+}
 .header_bottom_submenu_wrapper{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
+}
+
+.header_bottom_submenu_wrapper_last{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
 }
 
 .header_bottom_submenu_item {
@@ -546,6 +562,10 @@
     text-transform: capitalize;
     text-decoration: none;
     color: rgba(3, 2, 26, 0.8);
+    cursor: pointer;
+}
+.header_bottom_submenu_item_title:hover{
+    color: #fc2779;
 }
 
 .item_list_parent:not(:last-child){
@@ -565,6 +585,9 @@
     color: rgba(3, 2, 26, 0.5);
     text-transform: capitalize;
 }
+.item_list_parent li a:hover{
+    color: #fc2779;
+}
 
 .item_list_parent li span{
     color: #fff;
@@ -582,3 +605,101 @@
     padding: 14px 0px;
 }
 
+.middle_naykaa_list{}
+
+.middle_naykaa_list ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 0px;
+}
+
+.middle_naykaa_list ul li{
+
+}
+
+.middle_naykaa_list ul li a{
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: -0.1px;
+    color: rgba(3, 2, 26, 0.6);
+    text-transform: capitalize;
+    display: inline-block;
+    vertical-align: middle;
+    border-bottom: 3px solid transparent;
+}
+
+.middle_naykaa_list ul li a:hover{
+    border-bottom: 3px solid #fc2779;
+    color: #fc2779;
+}
+
+.header_bottom_submenu_brand{
+    width: 780px;
+    margin: 0px auto;
+    background: #f3f3f3;
+    border-bottom-right-radius: 3px
+}
+
+.header_middile_brand_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.brand_image{
+    width: 165px !important;
+    height: 35px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 auto 4%;
+}
+.brand_image img {
+  
+    object-fit: contain;
+    display: block;
+    margin: 0px auto;
+}
+
+.header_middle_wrapper_advice {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.beauty_advice_item{
+    width: 240px;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.beauty_advice_item_thumbnil{
+    width: 240px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.beauty_advice_item_thumbnil img{
+    width: 100%;
+}
+
+.beauty_advice_item_title{
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: -0.1px;
+    color: rgba(3, 2, 26, 0.8);
+    text-transform: uppercase;
+    line-height: 20px;
+}
+
+.beauty_advice_item_subtitle{
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0;
+    color: rgba(4, 1, 20, 0.6);
+    text-transform: capitalize;
+    line-height: 16px;
+}

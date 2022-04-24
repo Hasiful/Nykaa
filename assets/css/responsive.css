@@ -15,6 +15,12 @@
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
     }
+
+    
+    .feture_blog_001_wrapper{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
 }
 
 @media(min-width: 768px){
@@ -28,6 +34,10 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 20px;
+    }
+
+    .feture_blog_001_wrapper{
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 
@@ -79,6 +89,22 @@
        
         grid-template-columns: repeat(5, 1fr);
      
+    }
+
+    .feture_blog_001_wrapper{
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .feture_blog_002_wrapper{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+    }
+
+    .popupstoreis_section_001_wrapper{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
     }
 }
 

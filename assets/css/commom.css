@@ -67,3 +67,6 @@ body{
     letter-spacing: 0px;
     display: inline-block;
 }
+img{
+    cursor: pointer;
+}
